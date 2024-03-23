@@ -3,12 +3,46 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    // Instance singleton
+    private static GameManager instance;
+
+    // Method untuk mendapatkan instance singleton
+    public static GameManager Instance
+    {
+        get
+        {
+            // Jika instance belum ada, cari GameManager di scene
+            if (instance == null)
+            {
+                instance = FindObjectOfType<GameManager>();
+
+                // Jika tidak ditemukan, buat instance baru
+                if (instance == null)
+                {
+                    GameObject singletonObject = new GameObject("GameManager");
+                    instance = singletonObject.AddComponent<GameManager>();
+                }
+            }
+            return instance;
+        }
+    }
+
     private void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
+        // Jika instance belum diset, set instance ini sebagai instance singleton
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        // Jika instance sudah ada dan bukan instance ini, hancurkan objek ini
+        else if (instance != this)
+        {
+            Destroy(gameObject);
+        }
     }
-    private bool ended = false;
 
+    private bool ended = false;
     private bool win = false;
 
     public void EndGame()
@@ -23,7 +57,7 @@ public class GameManager : MonoBehaviour
 
     public void Win()
     {
-        if(!win)
+        if (!win)
         {
             win = true;
             SceneManager.LoadScene("WIN");
@@ -35,7 +69,7 @@ public class GameManager : MonoBehaviour
     private void Restart()
     {
         SceneManager.LoadScene("GameOver");
-        Invoke(nameof(LoadMainMenu), 5f); // Invoke the LoadMainMenu method after 5 seconds
+        Invoke(nameof(LoadMainMenu), 5f); // Panggil metode LoadMainMenu setelah 5 detik
     }
 
     private void LoadMainMenu()
@@ -45,7 +79,6 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        // Your Update logic here
+        // Logika Update Anda di sini
     }
 }
-

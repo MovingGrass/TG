@@ -70,13 +70,19 @@ public class player_Combat : MonoBehaviour
         anim.SetBool("Meninggoi", true);
        
         
+        
+        anim.SetTrigger("Dead");
         this.enabled = false;
         GetComponent<Dashscript>().enabled = false;
         GetComponent<Collider2D>().enabled = false;
         GetComponent<Player_Movement>().enabled = false;
         GetComponent<Gun>().enabled = false;
-
+        
+        
     }
+
+    
+
 
     void Attack()
     {
