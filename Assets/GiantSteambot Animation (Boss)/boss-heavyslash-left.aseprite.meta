@@ -1,0 +1,696 @@
+fileFormatVersion: 2
+guid: 90494e65210fc144fb41ea585d3d7316
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: boss-heavyslash-left_Frame_0
+    originalName: 
+    pivot: {x: 0.60683763, y: -0.78260875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 157
+      y: 894
+      width: 117
+      height: 115
+    spriteID: 67d3a708972089d46a4fb4e83f2309d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 157, y: 894}
+  - name: boss-heavyslash-left_Frame_1
+    originalName: 
+    pivot: {x: 0.31249997, y: -0.5357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 157
+      y: 364
+      width: 96
+      height: 168
+    spriteID: 25903093231ede841978e7ef4bba3b0a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 157, y: 364}
+  - name: boss-heavyslash-left_Frame_2
+    originalName: 
+    pivot: {x: 0.31521738, y: -0.54545456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 150
+      width: 92
+      height: 165
+    spriteID: 4d8adb449f4aa7945ab4d2d66442c09a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 150}
+  - name: boss-heavyslash-left_Frame_3
+    originalName: 
+    pivot: {x: 0.32584268, y: -0.5555556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 323
+      width: 89
+      height: 162
+    spriteID: f52cddec30150834f83be47e510f3d8d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 323}
+  - name: boss-heavyslash-left_Frame_4
+    originalName: 
+    pivot: {x: 0.3563218, y: -0.5696203}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 493
+      width: 87
+      height: 158
+    spriteID: af04cff6c636e264f90c4024f82fc1f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 493}
+  - name: boss-heavyslash-left_Frame_5
+    originalName: 
+    pivot: {x: 0.36904758, y: -0.5844156}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 659
+      width: 84
+      height: 154
+    spriteID: a85d8d62635cfcb4c92306eeb2d3b050
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 659}
+  - name: boss-heavyslash-left_Frame_6
+    originalName: 
+    pivot: {x: 0.37974682, y: -0.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 821
+      width: 79
+      height: 150
+    spriteID: 39c9689b81f711a43a326f2e25447c6f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 821}
+  - name: boss-heavyslash-left_Frame_7
+    originalName: 
+    pivot: {x: 0.38666666, y: -0.6164384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 314
+      y: 4
+      width: 75
+      height: 146
+    spriteID: b2951b59ce07c514ebe859946a9726d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 314, y: 4}
+  - name: boss-heavyslash-left_Frame_8
+    originalName: 
+    pivot: {x: 0.40845072, y: -0.6338029}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 314
+      y: 158
+      width: 71
+      height: 142
+    spriteID: a6ca7ffae686fc14b99608504f03efd3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 314, y: 158}
+  - name: boss-heavyslash-left_Frame_9
+    originalName: 
+    pivot: {x: 0.4366197, y: -0.6382979}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 314
+      y: 608
+      width: 71
+      height: 141
+    spriteID: 60c88fcc5fd370e4cb1d2fc39eee2516
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 314, y: 608}
+  - name: boss-heavyslash-left_Frame_10
+    originalName: 
+    pivot: {x: 0.4366197, y: -0.6338029}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 314
+      y: 308
+      width: 71
+      height: 142
+    spriteID: d91803a1c0c2b8b4a8c55cbd7fdf9743
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 314, y: 308}
+  - name: boss-heavyslash-left_Frame_11
+    originalName: 
+    pivot: {x: 0.40845072, y: -0.6338029}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 314
+      y: 458
+      width: 71
+      height: 142
+    spriteID: 3134b24dd9bdac147b5f07b73a0c0600
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 314, y: 458}
+  - name: boss-heavyslash-left_Frame_12
+    originalName: 
+    pivot: {x: 0.4225352, y: -0.6382979}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 314
+      y: 757
+      width: 71
+      height: 141
+    spriteID: dc1a3664467090149b084fa3c21b92c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 314, y: 757}
+  - name: boss-heavyslash-left_Frame_13
+    originalName: 
+    pivot: {x: 0.7724138, y: -0.65217394}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 145
+      height: 138
+    spriteID: 20f298b6b3297f446b0c93b796b07571
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: boss-heavyslash-left_Frame_14
+    originalName: 
+    pivot: {x: 0.8053691, y: -0.78571427}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 157
+      y: 4
+      width: 149
+      height: 112
+    spriteID: 4df80cceb111cfc4dbcc7a04ebed0928
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 157, y: 4}
+  - name: boss-heavyslash-left_Frame_15
+    originalName: 
+    pivot: {x: 0.80405414, y: -0.78571427}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 157
+      y: 244
+      width: 148
+      height: 112
+    spriteID: 7e556a64a741eb84db3340278cbc0457
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 157, y: 244}
+  - name: boss-heavyslash-left_Frame_16
+    originalName: 
+    pivot: {x: 0.8053691, y: -0.78571427}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 157
+      y: 124
+      width: 149
+      height: 112
+    spriteID: a9e07885507489f4ea747192ea48dfff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 157, y: 124}
+  - name: boss-heavyslash-left_Frame_17
+    originalName: 
+    pivot: {x: 0.79861104, y: -0.8181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 157
+      y: 540
+      width: 144
+      height: 110
+    spriteID: f04013740a13bde4ead3dcfc506f1650
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 157, y: 540}
+  - name: boss-heavyslash-left_Frame_18
+    originalName: 
+    pivot: {x: 0.79861104, y: -0.8181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 157
+      y: 658
+      width: 144
+      height: 110
+    spriteID: c0ffa6fa45715f24f97465c27a6cbcd5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 157, y: 658}
+  - name: boss-heavyslash-left_Frame_19
+    originalName: 
+    pivot: {x: 0.79861104, y: -0.8181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 157
+      y: 776
+      width: 144
+      height: 110
+    spriteID: a952eca5ff4e1574491bc23011083da2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 157, y: 776}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 228125788
+    name: boss-heavyslash-left
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: boss-heavyslash-left_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 79
+        y: 90
+        width: 117
+        height: 115
+      spriteId: 67d3a708972089d46a4fb4e83f2309d0
+    - name: boss-heavyslash-left_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 120
+        y: 90
+        width: 96
+        height: 168
+      spriteId: 25903093231ede841978e7ef4bba3b0a
+    - name: boss-heavyslash-left_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 121
+        y: 90
+        width: 92
+        height: 165
+      spriteId: 4d8adb449f4aa7945ab4d2d66442c09a
+    - name: boss-heavyslash-left_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 121
+        y: 90
+        width: 89
+        height: 162
+      spriteId: f52cddec30150834f83be47e510f3d8d
+    - name: boss-heavyslash-left_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 119
+        y: 90
+        width: 87
+        height: 158
+      spriteId: af04cff6c636e264f90c4024f82fc1f3
+    - name: boss-heavyslash-left_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 119
+        y: 90
+        width: 84
+        height: 154
+      spriteId: a85d8d62635cfcb4c92306eeb2d3b050
+    - name: boss-heavyslash-left_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 120
+        y: 90
+        width: 79
+        height: 150
+      spriteId: 39c9689b81f711a43a326f2e25447c6f
+    - name: boss-heavyslash-left_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 121
+        y: 90
+        width: 75
+        height: 146
+      spriteId: b2951b59ce07c514ebe859946a9726d4
+    - name: boss-heavyslash-left_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 121
+        y: 90
+        width: 71
+        height: 142
+      spriteId: a6ca7ffae686fc14b99608504f03efd3
+    - name: boss-heavyslash-left_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 119
+        y: 90
+        width: 71
+        height: 141
+      spriteId: 60c88fcc5fd370e4cb1d2fc39eee2516
+    - name: boss-heavyslash-left_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 119
+        y: 90
+        width: 71
+        height: 142
+      spriteId: d91803a1c0c2b8b4a8c55cbd7fdf9743
+    - name: boss-heavyslash-left_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 121
+        y: 90
+        width: 71
+        height: 142
+      spriteId: 3134b24dd9bdac147b5f07b73a0c0600
+    - name: boss-heavyslash-left_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 120
+        y: 90
+        width: 71
+        height: 141
+      spriteId: dc1a3664467090149b084fa3c21b92c6
+    - name: boss-heavyslash-left_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 38
+        y: 90
+        width: 145
+        height: 138
+      spriteId: 20f298b6b3297f446b0c93b796b07571
+    - name: boss-heavyslash-left_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 30
+        y: 88
+        width: 149
+        height: 112
+      spriteId: 4df80cceb111cfc4dbcc7a04ebed0928
+    - name: boss-heavyslash-left_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 31
+        y: 88
+        width: 148
+        height: 112
+      spriteId: 7e556a64a741eb84db3340278cbc0457
+    - name: boss-heavyslash-left_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 30
+        y: 88
+        width: 149
+        height: 112
+      spriteId: a9e07885507489f4ea747192ea48dfff
+    - name: boss-heavyslash-left_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 35
+        y: 90
+        width: 144
+        height: 110
+      spriteId: f04013740a13bde4ead3dcfc506f1650
+    - name: boss-heavyslash-left_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 35
+        y: 90
+        width: 144
+        height: 110
+      spriteId: c0ffa6fa45715f24f97465c27a6cbcd5
+    - name: boss-heavyslash-left_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 35
+        y: 90
+        width: 144
+        height: 110
+      spriteId: a952eca5ff4e1574491bc23011083da2
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 300, y: 300}

@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 01c79307fb20a1243add50c7b23dbdd4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: steambotm-idle-left_Frame_0
+    originalName: 
+    pivot: {x: 0.5090909, y: -0.11827957}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 311
+      width: 55
+      height: 93
+    spriteID: a2b65c13f45a31b4c9e935fb9ec81f1d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 311}
+  - name: steambotm-idle-left_Frame_1
+    originalName: 
+    pivot: {x: 0.49122807, y: -0.11827957}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 4
+      width: 57
+      height: 93
+    spriteID: 7999db809f3eefd48b263c589851b2a9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 4}
+  - name: steambotm-idle-left_Frame_2
+    originalName: 
+    pivot: {x: 0.4827586, y: -0.119565226}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 405
+      width: 58
+      height: 92
+    spriteID: fa7813cd88708164c9ef67c8ed814441
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 405}
+  - name: steambotm-idle-left_Frame_3
+    originalName: 
+    pivot: {x: 0.45901638, y: -0.12087913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 205
+      width: 61
+      height: 91
+    spriteID: 306d903ce2d6f1a41872f3c3bd18885e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 205}
+  - name: steambotm-idle-left_Frame_4
+    originalName: 
+    pivot: {x: 0.45161292, y: -0.119565226}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 62
+      height: 92
+    spriteID: f859df72c9a14934d8ebbd60e381a3a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: steambotm-idle-left_Frame_5
+    originalName: 
+    pivot: {x: 0.47540987, y: -0.11827957}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 104
+      width: 61
+      height: 93
+    spriteID: 88a6e0be12573f14ea2745766e114a2e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 104}
+  - name: steambotm-idle-left_Frame_6
+    originalName: 
+    pivot: {x: 0.4827586, y: -0.11827957}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 304
+      width: 58
+      height: 93
+    spriteID: bb0ef744a8b3fee40a0bdc6ba50f8aaa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 304}
+  - name: steambotm-idle-left_Frame_7
+    originalName: 
+    pivot: {x: 0.5185185, y: -0.11578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 105
+      width: 54
+      height: 95
+    spriteID: c163aac4571a7e748a25ca979d9b17ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 105}
+  - name: steambotm-idle-left_Frame_8
+    originalName: 
+    pivot: {x: 0.5185185, y: -0.11578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 208
+      width: 54
+      height: 95
+    spriteID: c0b5404e6343d634ea7f89c76ec61c7f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 208}
+  - name: steambotm-idle-left_Frame_9
+    originalName: 
+    pivot: {x: 0.5185185, y: -0.11702128}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 412
+      width: 54
+      height: 94
+    spriteID: cbe5c5b5cc01f6848854ccc5980b2811
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 412}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1696060639
+    name: steambotm-idle-left
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: steambotm-idle-left_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 22
+        y: 11
+        width: 55
+        height: 93
+      spriteId: a2b65c13f45a31b4c9e935fb9ec81f1d
+    - name: steambotm-idle-left_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 22
+        y: 11
+        width: 57
+        height: 93
+      spriteId: 7999db809f3eefd48b263c589851b2a9
+    - name: steambotm-idle-left_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 22
+        y: 11
+        width: 58
+        height: 92
+      spriteId: fa7813cd88708164c9ef67c8ed814441
+    - name: steambotm-idle-left_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 22
+        y: 11
+        width: 61
+        height: 91
+      spriteId: 306d903ce2d6f1a41872f3c3bd18885e
+    - name: steambotm-idle-left_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 22
+        y: 11
+        width: 62
+        height: 92
+      spriteId: f859df72c9a14934d8ebbd60e381a3a0
+    - name: steambotm-idle-left_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 21
+        y: 11
+        width: 61
+        height: 93
+      spriteId: 88a6e0be12573f14ea2745766e114a2e
+    - name: steambotm-idle-left_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 22
+        y: 11
+        width: 58
+        height: 93
+      spriteId: bb0ef744a8b3fee40a0bdc6ba50f8aaa
+    - name: steambotm-idle-left_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 22
+        y: 11
+        width: 54
+        height: 95
+      spriteId: c163aac4571a7e748a25ca979d9b17ca
+    - name: steambotm-idle-left_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 22
+        y: 11
+        width: 54
+        height: 95
+      spriteId: c0b5404e6343d634ea7f89c76ec61c7f
+    - name: steambotm-idle-left_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 22
+        y: 11
+        width: 54
+        height: 94
+      spriteId: cbe5c5b5cc01f6848854ccc5980b2811
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 100, y: 120}

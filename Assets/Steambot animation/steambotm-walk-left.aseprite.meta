@@ -1,0 +1,360 @@
+fileFormatVersion: 2
+guid: 34ec7d2dc161a644188a2730902a659b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: steambotm-walk-left_Frame_0
+    originalName: 
+    pivot: {x: 0.5128205, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 39
+      height: 96
+    spriteID: 4010dcf46e07e6344b4f7f66caff4fd0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: steambotm-walk-left_Frame_1
+    originalName: 
+    pivot: {x: 0.57142854, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 4
+      width: 35
+      height: 96
+    spriteID: d797d2fd7a34d7f4aa43f6b794234f4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 4}
+  - name: steambotm-walk-left_Frame_2
+    originalName: 
+    pivot: {x: 0.57142854, y: -0.12631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 108
+      width: 35
+      height: 95
+    spriteID: 08d6584b3c00e9a41ab515b959ffc7c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 108}
+  - name: steambotm-walk-left_Frame_3
+    originalName: 
+    pivot: {x: 0.5405405, y: -0.12631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 51
+      y: 4
+      width: 37
+      height: 95
+    spriteID: 82253c1730e8dbf46986053336462136
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 51, y: 4}
+  - name: steambotm-walk-left_Frame_4
+    originalName: 
+    pivot: {x: 0.52631575, y: -0.12371134}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 108
+      width: 38
+      height: 97
+    spriteID: 78aa72f5a6aa5f248ab1be24e72e2690
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 108}
+  - name: steambotm-walk-left_Frame_5
+    originalName: 
+    pivot: {x: 0.57142854, y: -0.12371134}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 51
+      y: 107
+      width: 35
+      height: 97
+    spriteID: 9b14b92f3a4a8ab408f154cb1ac2842e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 51, y: 107}
+  - name: steambotm-walk-left_Frame_6
+    originalName: 
+    pivot: {x: 0.57142854, y: -0.12631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 4
+      width: 35
+      height: 95
+    spriteID: 219ab5af2b3133d4dbacca5247987660
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 4}
+  - name: steambotm-walk-left_Frame_7
+    originalName: 
+    pivot: {x: 0.58823526, y: -0.12631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 107
+      width: 34
+      height: 95
+    spriteID: 0158b695e3c59454b81aa2a1a14b5ef2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 107}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1482305738
+    name: steambotm-walk-left
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: steambotm-walk-left_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 30
+        y: 12
+        width: 39
+        height: 96
+      spriteId: 4010dcf46e07e6344b4f7f66caff4fd0
+    - name: steambotm-walk-left_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 30
+        y: 12
+        width: 35
+        height: 96
+      spriteId: d797d2fd7a34d7f4aa43f6b794234f4d
+    - name: steambotm-walk-left_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 30
+        y: 12
+        width: 35
+        height: 95
+      spriteId: 08d6584b3c00e9a41ab515b959ffc7c0
+    - name: steambotm-walk-left_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 30
+        y: 12
+        width: 37
+        height: 95
+      spriteId: 82253c1730e8dbf46986053336462136
+    - name: steambotm-walk-left_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 30
+        y: 12
+        width: 38
+        height: 97
+      spriteId: 78aa72f5a6aa5f248ab1be24e72e2690
+    - name: steambotm-walk-left_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 30
+        y: 12
+        width: 35
+        height: 97
+      spriteId: 9b14b92f3a4a8ab408f154cb1ac2842e
+    - name: steambotm-walk-left_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 30
+        y: 12
+        width: 35
+        height: 95
+      spriteId: 219ab5af2b3133d4dbacca5247987660
+    - name: steambotm-walk-left_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 30
+        y: 12
+        width: 34
+        height: 95
+      spriteId: 0158b695e3c59454b81aa2a1a14b5ef2
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 100, y: 120}

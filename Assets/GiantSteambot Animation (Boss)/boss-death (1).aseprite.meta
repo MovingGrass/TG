@@ -1,0 +1,612 @@
+fileFormatVersion: 2
+guid: 6f82965203fa5c64daff33714f75c8f8
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: boss-death (1)_Frame_0
+    originalName: 
+    pivot: {x: 0.60683763, y: -0.78260875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 145
+      y: 837
+      width: 117
+      height: 115
+    spriteID: 79c3dd2df5606f34894355a48031456b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 145, y: 837}
+  - name: boss-death (1)_Frame_1
+    originalName: 
+    pivot: {x: 0.60683763, y: -0.78260875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 293
+      y: 172
+      width: 117
+      height: 115
+    spriteID: 5debe8498e13c064e98afa9be6703c6a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 293, y: 172}
+  - name: boss-death (1)_Frame_2
+    originalName: 
+    pivot: {x: 0.60683763, y: -0.78260875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 293
+      y: 295
+      width: 117
+      height: 115
+    spriteID: cdd7dac112e55cc43a42beb8f0b427ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 293, y: 295}
+  - name: boss-death (1)_Frame_3
+    originalName: 
+    pivot: {x: 0.60683763, y: -0.78260875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 293
+      y: 418
+      width: 117
+      height: 115
+    spriteID: 8b152028dd003cd4096540f82ca6a4ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 293, y: 418}
+  - name: boss-death (1)_Frame_4
+    originalName: 
+    pivot: {x: 0.60683763, y: -0.78260875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 293
+      y: 541
+      width: 117
+      height: 115
+    spriteID: a45d9ca9302e3fd4bb975187588b21fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 293, y: 541}
+  - name: boss-death (1)_Frame_5
+    originalName: 
+    pivot: {x: 0.60683763, y: -0.76271194}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 145
+      y: 711
+      width: 117
+      height: 118
+    spriteID: 5ed921d5e3a3a7d4c9cde815b0eec5f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 145, y: 711}
+  - name: boss-death (1)_Frame_6
+    originalName: 
+    pivot: {x: 0.60683763, y: -0.73770493}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 845
+      width: 117
+      height: 122
+    spriteID: 31800b6da22cee24b812eab483b2baa4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 845}
+  - name: boss-death (1)_Frame_7
+    originalName: 
+    pivot: {x: 0.60683763, y: -0.73770493}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 145
+      y: 452
+      width: 117
+      height: 122
+    spriteID: 8d82d7339c933ec4a99f367ff5470baa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 145, y: 452}
+  - name: boss-death (1)_Frame_8
+    originalName: 
+    pivot: {x: 0.6134454, y: -0.7177419}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 713
+      width: 119
+      height: 124
+    spriteID: 4b1f2c12ef670594fb9ab19b1811cf80
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 713}
+  - name: boss-death (1)_Frame_9
+    originalName: 
+    pivot: {x: 0.6198347, y: -0.73170733}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 582
+      width: 121
+      height: 123
+    spriteID: 742631ae857785141a0fb6b824fac911
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 582}
+  - name: boss-death (1)_Frame_10
+    originalName: 
+    pivot: {x: 0.62393165, y: -0.7438017}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 145
+      y: 582
+      width: 117
+      height: 121
+    spriteID: ea11bb6e808fd2e4f9e80b7795fd122b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 145, y: 582}
+  - name: boss-death (1)_Frame_11
+    originalName: 
+    pivot: {x: 0.5413534, y: -0.6311475}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 452
+      width: 133
+      height: 122
+    spriteID: d3cec861d000f9645b770c0b47d411da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 452}
+  - name: boss-death (1)_Frame_12
+    originalName: 
+    pivot: {x: 0.5189873, y: -0.3945578}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 297
+      width: 158
+      height: 147
+    spriteID: 3b89398cf8536c348841d288484c12ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 297}
+  - name: boss-death (1)_Frame_13
+    originalName: 
+    pivot: {x: 0.5276382, y: -0.21875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 255
+      y: 4
+      width: 199
+      height: 160
+    spriteID: 80e186584a8d0d548afccf88d8f6c5fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 255, y: 4}
+  - name: boss-death (1)_Frame_14
+    originalName: 
+    pivot: {x: 0.52263373, y: -0.04375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 243
+      height: 160
+    spriteID: 135b19a7dae8ca84a8148a29a209f52c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: boss-death (1)_Frame_15
+    originalName: 
+    pivot: {x: 0.5302491, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 172
+      width: 281
+      height: 117
+    spriteID: a345b0bffcc1a5e43a4456aa06f932de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 172}
+  - name: boss-death (1)_Frame_16
+    originalName: 
+    pivot: {x: 0.14110427, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 293
+      y: 664
+      width: 163
+      height: 47
+    spriteID: c14842ea20e798b41b060828c0a51fbd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 293, y: 664}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1311155974
+    name: boss-death (1)
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: boss-death (1)_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 79
+        y: 90
+        width: 117
+        height: 115
+      spriteId: 79c3dd2df5606f34894355a48031456b
+    - name: boss-death (1)_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 79
+        y: 90
+        width: 117
+        height: 115
+      spriteId: 5debe8498e13c064e98afa9be6703c6a
+    - name: boss-death (1)_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 79
+        y: 90
+        width: 117
+        height: 115
+      spriteId: cdd7dac112e55cc43a42beb8f0b427ab
+    - name: boss-death (1)_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 79
+        y: 90
+        width: 117
+        height: 115
+      spriteId: 8b152028dd003cd4096540f82ca6a4ef
+    - name: boss-death (1)_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 79
+        y: 90
+        width: 117
+        height: 115
+      spriteId: a45d9ca9302e3fd4bb975187588b21fa
+    - name: boss-death (1)_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 79
+        y: 90
+        width: 117
+        height: 118
+      spriteId: 5ed921d5e3a3a7d4c9cde815b0eec5f9
+    - name: boss-death (1)_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 79
+        y: 90
+        width: 117
+        height: 122
+      spriteId: 31800b6da22cee24b812eab483b2baa4
+    - name: boss-death (1)_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 79
+        y: 90
+        width: 117
+        height: 122
+      spriteId: 8d82d7339c933ec4a99f367ff5470baa
+    - name: boss-death (1)_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 77
+        y: 89
+        width: 119
+        height: 124
+      spriteId: 4b1f2c12ef670594fb9ab19b1811cf80
+    - name: boss-death (1)_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 75
+        y: 90
+        width: 121
+        height: 123
+      spriteId: 742631ae857785141a0fb6b824fac911
+    - name: boss-death (1)_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 77
+        y: 90
+        width: 117
+        height: 121
+      spriteId: ea11bb6e808fd2e4f9e80b7795fd122b
+    - name: boss-death (1)_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 78
+        y: 77
+        width: 133
+        height: 122
+      spriteId: d3cec861d000f9645b770c0b47d411da
+    - name: boss-death (1)_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 68
+        y: 58
+        width: 158
+        height: 147
+      spriteId: 3b89398cf8536c348841d288484c12ef
+    - name: boss-death (1)_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 45
+        y: 35
+        width: 199
+        height: 160
+      spriteId: 80e186584a8d0d548afccf88d8f6c5fb
+    - name: boss-death (1)_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 23
+        y: 7
+        width: 243
+        height: 160
+      spriteId: 135b19a7dae8ca84a8148a29a209f52c
+    - name: boss-death (1)_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 1
+        y: 0
+        width: 281
+        height: 117
+      spriteId: a345b0bffcc1a5e43a4456aa06f932de
+    - name: boss-death (1)_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 127
+        y: 0
+        width: 163
+        height: 47
+      spriteId: c14842ea20e798b41b060828c0a51fbd
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 300, y: 300}
