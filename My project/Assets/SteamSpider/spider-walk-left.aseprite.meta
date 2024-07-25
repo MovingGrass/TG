@@ -1,0 +1,304 @@
+fileFormatVersion: 2
+guid: 9718a2510b8d1474b938a6646af26647
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: spider-walk-left_Frame_0
+    originalName: 
+    pivot: {x: 0.5555556, y: -0.3809524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 157
+      width: 45
+      height: 42
+    spriteID: afb91aa05dbd2f640aa1bf740332932f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 157}
+  - name: spider-walk-left_Frame_1
+    originalName: 
+    pivot: {x: 0.59999996, y: -0.37209305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 4
+      width: 50
+      height: 43
+    spriteID: c592ec3fcfbfbc64bb518dab100b4744
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 4}
+  - name: spider-walk-left_Frame_2
+    originalName: 
+    pivot: {x: 0.6296296, y: -0.37209305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 55
+      width: 54
+      height: 43
+    spriteID: fcd03fdd48d4ace44972f57e966c9ebd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 55}
+  - name: spider-walk-left_Frame_3
+    originalName: 
+    pivot: {x: 0.6393442, y: -0.37209305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 61
+      height: 43
+    spriteID: c67acd4d4c068dc4391f2826d444009b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: spider-walk-left_Frame_4
+    originalName: 
+    pivot: {x: 0.62264156, y: -0.37209305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 106
+      width: 53
+      height: 43
+    spriteID: 31a9906b76ede3a4b8e29da517053264
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 106}
+  - name: spider-walk-left_Frame_5
+    originalName: 
+    pivot: {x: 0.5555556, y: -0.39024392}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 207
+      width: 45
+      height: 41
+    spriteID: 13986a664cbff1a47b7f0c96a6c65842
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 207}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 104140719
+    name: spider-walk-left
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: spider-walk-left_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 31
+        y: 16
+        width: 45
+        height: 42
+      spriteId: afb91aa05dbd2f640aa1bf740332932f
+    - name: spider-walk-left_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 26
+        y: 16
+        width: 50
+        height: 43
+      spriteId: c592ec3fcfbfbc64bb518dab100b4744
+    - name: spider-walk-left_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 22
+        y: 16
+        width: 54
+        height: 43
+      spriteId: fcd03fdd48d4ace44972f57e966c9ebd
+    - name: spider-walk-left_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 17
+        y: 16
+        width: 61
+        height: 43
+      spriteId: c67acd4d4c068dc4391f2826d444009b
+    - name: spider-walk-left_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 23
+        y: 16
+        width: 53
+        height: 43
+      spriteId: 31a9906b76ede3a4b8e29da517053264
+    - name: spider-walk-left_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 31
+        y: 16
+        width: 45
+        height: 41
+      spriteId: 13986a664cbff1a47b7f0c96a6c65842
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 112, y: 80}

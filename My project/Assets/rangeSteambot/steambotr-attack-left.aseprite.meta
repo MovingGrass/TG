@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 2007e4baa846d564bbb90e1f2b68bf80
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: steambotr-attack-left_Frame_0
+    originalName: 
+    pivot: {x: 0.5178572, y: -0.11827957}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 408
+      width: 56
+      height: 93
+    spriteID: fbf11275acaf9794596c6ceb88b488a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 408}
+  - name: steambotr-attack-left_Frame_1
+    originalName: 
+    pivot: {x: 0.5084746, y: -0.11827957}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 206
+      width: 59
+      height: 93
+    spriteID: a60c0610daa73284e9c01711403846bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 206}
+  - name: steambotr-attack-left_Frame_2
+    originalName: 
+    pivot: {x: 0.5081967, y: -0.11827957}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 105
+      width: 61
+      height: 93
+    spriteID: fd5b9ff7fcd8c8c4cb2c34cf2578c57d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 105}
+  - name: steambotr-attack-left_Frame_3
+    originalName: 
+    pivot: {x: 0.5416666, y: -0.11827957}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 72
+      height: 93
+    spriteID: 1c2c35d8a9881ed43be9b6976265b8e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: steambotr-attack-left_Frame_4
+    originalName: 
+    pivot: {x: 0.52112675, y: -0.11827957}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 208
+      width: 71
+      height: 93
+    spriteID: a40904240fc7bdf43afa3f2f595d1122
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 208}
+  - name: steambotr-attack-left_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.11827957}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 4
+      width: 64
+      height: 93
+    spriteID: 7408be6f9e3ff824aabbc9315dac7eba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 4}
+  - name: steambotr-attack-left_Frame_6
+    originalName: 
+    pivot: {x: 0.49152547, y: -0.11827957}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 307
+      width: 59
+      height: 93
+    spriteID: 8ecaa4344a84d424aa1031e8c5ea6fb4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 307}
+  - name: steambotr-attack-left_Frame_7
+    originalName: 
+    pivot: {x: 0.61194026, y: -0.11578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 411
+      width: 67
+      height: 95
+    spriteID: 74aec056142f70042b9c52e26dd02092
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 411}
+  - name: steambotr-attack-left_Frame_8
+    originalName: 
+    pivot: {x: 0.62857145, y: -0.11578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 105
+      width: 70
+      height: 95
+    spriteID: 712042c0e85a5594e86922c30a48b120
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 105}
+  - name: steambotr-attack-left_Frame_9
+    originalName: 
+    pivot: {x: 0.62857145, y: -0.11702128}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 309
+      width: 70
+      height: 94
+    spriteID: 8c41096fa73165d4289e6b876c3421dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 309}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -936905964
+    name: steambotr-attack-left
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: steambotr-attack-left_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 21
+        y: 11
+        width: 56
+        height: 93
+      spriteId: fbf11275acaf9794596c6ceb88b488a3
+    - name: steambotr-attack-left_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 20
+        y: 11
+        width: 59
+        height: 93
+      spriteId: a60c0610daa73284e9c01711403846bb
+    - name: steambotr-attack-left_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 19
+        y: 11
+        width: 61
+        height: 93
+      spriteId: fd5b9ff7fcd8c8c4cb2c34cf2578c57d
+    - name: steambotr-attack-left_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 11
+        y: 11
+        width: 72
+        height: 93
+      spriteId: 1c2c35d8a9881ed43be9b6976265b8e8
+    - name: steambotr-attack-left_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 13
+        y: 11
+        width: 71
+        height: 93
+      spriteId: a40904240fc7bdf43afa3f2f595d1122
+    - name: steambotr-attack-left_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 18
+        y: 11
+        width: 64
+        height: 93
+      spriteId: 7408be6f9e3ff824aabbc9315dac7eba
+    - name: steambotr-attack-left_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 21
+        y: 11
+        width: 59
+        height: 93
+      spriteId: 8ecaa4344a84d424aa1031e8c5ea6fb4
+    - name: steambotr-attack-left_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 9
+        y: 11
+        width: 67
+        height: 95
+      spriteId: 74aec056142f70042b9c52e26dd02092
+    - name: steambotr-attack-left_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 6
+        y: 11
+        width: 70
+        height: 95
+      spriteId: 712042c0e85a5594e86922c30a48b120
+    - name: steambotr-attack-left_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 6
+        y: 11
+        width: 70
+        height: 94
+      spriteId: 8c41096fa73165d4289e6b876c3421dc
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 100, y: 120}

@@ -23,15 +23,39 @@ public class Bullet : MonoBehaviour
         {
             steambot.TakeDamage(damage);
             Destroy(gameObject);
-            return; // Exit the method to avoid executing the next block
+            return; 
         }
 
-    BossMain boss = hitInfo.GetComponent<BossMain>();
+        BossMain boss = hitInfo.GetComponent<BossMain>();
         if (boss != null)
         {
             boss.TakeDamageBoss(damage);
             Destroy(gameObject);
-            return; // Exit the method if BossMain component is found
+            return; 
+        }
+
+        MainSpiderScript spider = hitInfo.GetComponent<MainSpiderScript>();
+        if (spider != null)
+        {
+            spider.TakeDamageSpider(damage);
+            Destroy(gameObject);
+            return; 
+        }
+
+        SteambotRange range = hitInfo.GetComponent<SteambotRange>();
+        if (range != null)
+        {
+            range.TakeDamageRange(damage);
+            Destroy(gameObject);
+            return; 
+        }
+
+        SteamBirdMainScript bird = hitInfo.GetComponent<SteamBirdMainScript>();
+        if (bird != null)
+        {
+            bird.TakeDamageBird(damage);
+            Destroy(gameObject);
+            return; 
         }
     }
 

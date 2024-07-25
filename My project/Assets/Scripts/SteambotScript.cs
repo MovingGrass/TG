@@ -47,8 +47,8 @@ public class SteambotScript : MonoBehaviour
         {
             if (cooldownTimer >= attackCooldown)
             {
-            cooldownTimer = 0;
-            anime.SetTrigger("Attack");
+                cooldownTimer = 0;
+                anime.SetTrigger("Attack");
             
 
             }
@@ -74,7 +74,7 @@ public class SteambotScript : MonoBehaviour
         return hit.collider != null;
     }
 
-    public void TakeDamage(float damage)
+    public void TakeDamage(float damage)     
     {
         currenthealth -= damage;
         Healthbar.SetHealth(currenthealth, maxhealth);

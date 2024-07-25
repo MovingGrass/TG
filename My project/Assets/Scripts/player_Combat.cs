@@ -71,7 +71,7 @@ public class player_Combat : MonoBehaviour
        
         
         
-        anim.SetTrigger("Dead");
+        
         this.enabled = false;
         GetComponent<Dashscript>().enabled = false;
         GetComponent<Collider2D>().enabled = false;
@@ -102,6 +102,24 @@ public class player_Combat : MonoBehaviour
                 if (boss != null)
                 {
                     boss.TakeDamageBoss(meleeDamage);
+                }
+
+                MainSpiderScript spider = enemyCollider.GetComponent<MainSpiderScript>();
+                if (spider != null)
+                {   
+                    spider.TakeDamageSpider(meleeDamage);
+                }
+
+                SteambotRange range = enemyCollider.GetComponent<SteambotRange>();
+                if (range != null)
+                {   
+                    range.TakeDamageRange(meleeDamage);
+                }
+
+                SteamBirdMainScript bird = enemyCollider.GetComponent<SteamBirdMainScript>();
+                if (bird != null)
+                {   
+                    bird.TakeDamageBird(meleeDamage);
                 }
             }
     }   
