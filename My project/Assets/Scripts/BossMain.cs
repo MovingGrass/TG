@@ -44,6 +44,7 @@ public class BossMain : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
         rb = GetComponent<Rigidbody2D>();
         currentState = BossState.Idle;
+        playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<player_Combat>();
     }
 
     void Update()
@@ -70,10 +71,17 @@ public class BossMain : MonoBehaviour
             case BossState.NormalAttack:
             case BossState.SpinningAttack:
             case BossState.HeavySlash:
+                StartCoroutine(HeavySlashCD());
                 // These states are handled by animation events
                 break;
         }
     }
+
+    IEnumerator HeavySlashCD()
+{
+    yield return new WaitForSeconds(4f);
+    currentState = BossState.Idle;
+}
 
     bool CanSeePlayer()
     {

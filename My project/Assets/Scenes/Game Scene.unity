@@ -730,6 +730,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: -12, y: -24, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -11, y: -24, z: 0}
     second:
       serializedVersion: 2
@@ -741,6 +751,16 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -8, y: -24, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -7, y: -24, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 0
@@ -770,6 +790,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: -12, y: -22, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -11, y: -22, z: 0}
     second:
       serializedVersion: 2
@@ -781,6 +811,16 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -8, y: -22, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -7, y: -22, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 0
@@ -811,6 +851,16 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -3, y: -20, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -2, y: -20, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 0
@@ -962,13 +1012,13 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 33
+  - m_RefCount: 38
     m_Data: {fileID: 11400000, guid: b3c02b05316b47d4c898561000aadd06, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 33
+  - m_RefCount: 38
     m_Data: {fileID: -526116834, guid: dbfe209f7dc678745b087accffeb751f, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 33
+  - m_RefCount: 38
     m_Data:
       e00: 1
       e01: 0
@@ -987,7 +1037,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 33
+  - m_RefCount: 38
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -1027,7 +1077,7 @@ PlatformEffector2D:
     m_Bits: 4294967295
   m_RotationalOffset: 0
   m_UseOneWay: 1
-  m_UseOneWayGrouping: 0
+  m_UseOneWayGrouping: 1
   m_SurfaceArc: 1
   m_UseSideFriction: 0
   m_UseSideBounce: 0
@@ -1508,8 +1558,8 @@ Transform:
   m_GameObject: {fileID: 349225793}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -217.4737, y: -80, z: 0}
-  m_LocalScale: {x: -13.699342, y: 13.833646, z: 1}
+  m_LocalPosition: {x: -216.8346, y: -76.3591, z: 0}
+  m_LocalScale: {x: -10.6547575, y: 9.788311, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1295156846}
@@ -1530,7 +1580,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -1586,7 +1636,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &349225798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1601,16 +1651,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxhealth: 100
   boxCollider: {fileID: 349225796}
-  attackCooldown: 2
-  attackRange: 9.14
-  sightRange: 19
+  attackCooldown: 1
+  attackRange: 6.1
+  sightRange: 20.8
   colliderDistance: 4.22
   bossDamage: 10
   playerLayer:
     serializedVersion: 2
     m_Bits: 8
   moveSpeed: 3
-  spinningAttackDuration: 3
+  spinningAttackDuration: 1
   spinningAttackDamage: 5
   heavySlashChargeTime: 2
   heavySlashDamage: 20
@@ -2596,7 +2646,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -2730,15 +2780,19 @@ MonoBehaviour:
   attackCooldown: 0.5
   range: 0.56
   colliderDistance: 1.25
-  steambirdDamage: 10
+  steambirdDamage: 0.5
   playerLayer:
     serializedVersion: 2
     m_Bits: 8
   detector: {fileID: 682417822}
   detect_range: 3.25
   detect_colliderDistance: 0.59
-  components: []
+  components:
+  - {fileID: 682417827}
+  - {fileID: 1987888224}
+  - {fileID: 381541824}
   Healthbar: {fileID: 1861486911}
+  objectToDestroy: {fileID: 381541820}
 --- !u!95 &682417828
 Animator:
   serializedVersion: 5
@@ -3287,7 +3341,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5684429075441625003, guid: 57b90da9f360aaf41a9d7e243040dddf, type: 3}
       propertyPath: m_JumpForce
-      value: 800
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 5684429075441625003, guid: 57b90da9f360aaf41a9d7e243040dddf, type: 3}
       propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.size
@@ -3303,11 +3357,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5898982812407286035, guid: 57b90da9f360aaf41a9d7e243040dddf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -170.8
+      value: -121.67
       objectReference: {fileID: 0}
     - target: {fileID: 5898982812407286035, guid: 57b90da9f360aaf41a9d7e243040dddf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -45.1
+      value: -26.31
       objectReference: {fileID: 0}
     - target: {fileID: 5898982812407286035, guid: 57b90da9f360aaf41a9d7e243040dddf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4349,7 +4403,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -4421,7 +4475,7 @@ MonoBehaviour:
   maxhealth: 100
   attackCooldown: 1
   range: 6.84
-  damage: 15
+  damage: 3
   firepoint: {fileID: 1808862529}
   fireballs: []
   colliderDistance: 0.22
@@ -5438,7 +5492,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -8792,7 +8846,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -8866,7 +8920,7 @@ MonoBehaviour:
   attackCooldown: 1
   range: 1.69
   colliderDistance: 0.02
-  steambotDamage: 10
+  steambotDamage: 5
   playerLayer:
     serializedVersion: 2
     m_Bits: 8

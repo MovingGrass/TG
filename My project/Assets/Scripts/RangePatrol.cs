@@ -63,9 +63,14 @@ public class RangePatrol : MonoBehaviour
         anim.SetBool("moving", true);
 
         //Make enemy face direction
-        enemy.localScale = new Vector3(Mathf.Abs(initScale.x) * _direction,
-            initScale.y, initScale.z);
-
+       if (_direction == 1)
+        {
+            enemy.rotation = Quaternion.Euler(0, 0, 0); // Facing right
+        }
+        else
+        {
+            enemy.rotation = Quaternion.Euler(0, 180, 0); // Facing left
+        }
         //Move in that direction
         enemy.position = new Vector3(enemy.position.x + Time.deltaTime * _direction * speed,
             enemy.position.y, enemy.position.z);

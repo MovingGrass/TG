@@ -39,6 +39,8 @@ public class SteamBirdMainScript : MonoBehaviour
 
     private Vector3 parentlocalScale;
 
+    public GameObject objectToDestroy;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -185,6 +187,8 @@ public class SteamBirdMainScript : MonoBehaviour
 
     private void Deactivate()
     {
+       
+        
         Destroy(this.gameObject);
     }
 }
